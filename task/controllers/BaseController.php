@@ -4,10 +4,10 @@
 namespace task\controllers;
 
 
-class IndexController
+class BaseController
 {
 
-    public function actionIndex()
+    public function __construct()
     {
 
     }
