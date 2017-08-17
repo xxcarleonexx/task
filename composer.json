@@ -1,0 +1,23 @@
+{
+  "name": "carleone/task",
+  "description": "Task application",
+  "keywords": [
+    "task",
+    "test"
+  ],
+  "type": "project",
+  "license": "Proprietary software",
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "task\\": "task/"
+    }
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "twbs/bootstrap": "4.0.0-beta"
+  },
+  "config": {
+    "process-timeout": 1800
+  }
+}
