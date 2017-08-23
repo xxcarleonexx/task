@@ -6,9 +6,18 @@ namespace task\controllers\web;
 
 use task\controllers\AbstractController;
 use task\controllers\BaseController;
+use task\View\View;
 
 class Controller extends AbstractController
 {
+
+    protected $view;
+
+
+    public function __construct()
+    {
+        $this->view = new View();
+    }
 
     /**
      * @param BaseController $controller
@@ -19,5 +28,11 @@ class Controller extends AbstractController
     {
 
     }
+
+    public function render($path, $parameters = [])
+    {
+        return $this->view->render($path, $parameters);
+    }
+
 
 }
