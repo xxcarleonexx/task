@@ -4,12 +4,14 @@
 namespace task\controllers;
 
 
-class IndexController
+use task\controllers\web\Controller;
+
+class IndexController extends Controller
 {
 
     public function actionIndex()
     {
-        return "Hello, World!";
+        return $this->render('index');
     }
 
 }
