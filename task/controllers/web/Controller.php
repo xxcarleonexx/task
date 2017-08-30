@@ -4,8 +4,6 @@
 namespace task\controllers\web;
 
 
-use task\controllers\AbstractController;
-use task\controllers\BaseController;
 use task\View\View;
 
 class Controller
@@ -23,15 +21,7 @@ class Controller
      */
     public function setLayout($layout)
     {
-        $this->view->setLayout(layout);
-    }
-
-    /**
-     * @return string
-     */
-    public function getLayout()
-    {
-        return $this->layout;
+        $this->view->setLayout($layout);
     }
 
     /**
