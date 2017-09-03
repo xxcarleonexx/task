@@ -6,7 +6,7 @@ namespace task\controllers;
 
 use task\controllers\web\Controller;
 
-class IndexController extends Controller
+class SiteController extends Controller
 {
 
     public function actionIndex()

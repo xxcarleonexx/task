@@ -4,7 +4,7 @@
 namespace task\controllers\web;
 
 
-use task\View\View;
+use task\views\View;
 
 class Controller
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace task\View;
+namespace task\views;
 
 use Exception;
 use Throwable;
