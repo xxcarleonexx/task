@@ -4,9 +4,7 @@
 namespace task\core;
 
 
-use task\controllers\BaseController;
 use task\controllers\SiteController;
-use yii\web\NotFoundHttpException;
 
 class Router
 {
